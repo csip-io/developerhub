@@ -4,7 +4,7 @@ module.exports = {
   tagline: "Welcome to the Csip.io API developer hub. You'll find comprehensive guides and documentation to help you start working with Csip.io API as quickly as possible, as well as support if you get stuck. Let's jump right in!",
   url: 'https://developer.csip.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'csipio', 
