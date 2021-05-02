@@ -12,6 +12,7 @@ module.exports = {
           type: 'category',
           label: 'Data Objects',
           items: [
+            'data-objects',
             'data-objects/data-feed',
             'data-objects/data-point',
             'data-objects/data-value'
@@ -19,18 +20,45 @@ module.exports = {
       }
       ]
     },
+    {
+      type: 'category',
+      label: 'Data Connector',
+      items: [
+        'data-connector-overview',
+        'appmethod',
+        'websocket',
+        'data-connector-http',
+        'sql-connector',
+        'data-connector-amqp',
+        'mqtt',
+        'kafka',
+        'couchdb',
+        'mongodb',
+        'cloud-pubsub',
+        'aws-kinesis',
+
+        ],
+    },
   {
       type: 'category',
       label: 'Tutorials',
       items: [
         'understanding-builtin-profile',
         'understanding-locations',
+        'provisioning',
+        'mirroring',
+        'understanding-alert-systems',
+        'device-code'
         ],
     },
     {
       type: 'category',
       label: 'Integrations',
       items: [
+        'nodered',
+        'redash',
+        'superset-integration',
+        'grafana'
       ],
     },
     {
@@ -52,10 +80,17 @@ module.exports = {
     },
   ], 
   api: [
-    'api-keys',
+    {
+    type: 'category',
+    label: 'Csip.io API Overview',
+    items: [
+      'api-keys',
+    ]
+    
+    },
     {
       type: 'category',
-      label: 'Plugins',
+      label: 'Admin Services API',
       items: [
         'api/admin-overview',
         'api/apiaccess',
