@@ -11,12 +11,12 @@ The following rules apply to write operations:
 
 3. A valid data feed object must be provided as payload - see Data Feed.
 
-4. Valid credentials must be provided - see [API Keys](http://localhost:3000/docs/apiaccess).
+4. Valid credentials must be provided - see [API Keys](https://csip.io/docs/apiaccess).
 
 > ### ❗️ API Keys
 > In order to complete a write operation successfully the system requires to know the requester and the destination object identities. A destination object can be a device or app property.
 > 
-API key credentials conveyed in the basic authentication header provides Connio with both the identity of the requester (authentication), and the authorization information. A combination of URL path and prop attribute defined in the data feed or object provides the system with the destination object identity.
+API key credentials conveyed in the basic authentication header provides Csipio with both the identity of the requester (authentication), and the authorization information. A combination of URL path and prop attribute defined in the data feed or object provides the system with the destination object identity.
 > 
 In many cases the system acts differently on the request based on the requester's identity. For example, if the requester is a device, and the request is a write operation, the system doesn't consider this as a device command and send it to the physical device. On the other hand, if the requester is an external entity, then it considers it as a device command and sends this data to the device automatically over MQTT. We are going into details of this mechanism shortly.
 
@@ -96,9 +96,9 @@ Csip.io supports both `tcp` and `websocket` connections to its MQTT broker. The 
 
 |Protocol|	Address|
 | :-------------: |:-------------:|
-|Tcp|	tcp://mqtt.connio.com:1883|
-|Secure Tcp	|tcp://mqtt.connio.com:8883|
-|Websocket|	ws://mqtt.connio.com:8000|
+|Tcp|	tcp://mqtt.csip.io:1883|
+|Secure Tcp	|tcp://mqtt.csip.io:8883|
+|Websocket|	ws://mqtt.csip.io:8000|
 
 > ### 🚧 IMPORTANT
 > Only MQTT version 3.1.1 is supported.

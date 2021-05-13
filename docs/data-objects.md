@@ -17,6 +17,6 @@ All data interaction with the Connio platform evolves around 3 types of data obj
 
 | Type |	When |	Description |
 | :-------------: |:-------------:|:-------------:|
-| [Data Feed](https://www.google.com)|	Data in transit	 | Encapsulated multiple incoming data points.|
-|[Data Point](https://www.google.com)	 | Data in transit |	Single unit of temporal data.|
-|[Data Value](https://www.google.com)	| Data at rest |	Enriched version of data point.|
+| [Data Feed](https://developer.csip.io/docs/data-feed)|	Data in transit	 | Encapsulated multiple incoming data points.|
+|[Data Point](https://developer.csip.io/docs/data-point)	 | Data in transit |	Single unit of temporal data.|
+|[Data Value](https://developer.csip.io/docs/data-value)	| Data at rest |	Enriched version of data point.|

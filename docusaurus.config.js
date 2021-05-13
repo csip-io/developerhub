@@ -23,7 +23,7 @@ module.exports = {
           position: 'left',
         },
 
-        {to: 'docs/admin-overview', label: 'API', position: 'left'},
+        {to: 'docs/basics', label: 'API', position: 'left'},
         {
           href: 'https://github.com/csip-io',
           label: 'GitHub',

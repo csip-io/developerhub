@@ -36,7 +36,6 @@ module.exports = {
         'mongodb',
         'cloud-pubsub',
         'aws-kinesis',
-
         ],
     },
   {
@@ -80,23 +79,48 @@ module.exports = {
     },
   ], 
   api: [
+
     {
-    type: 'category',
-    label: 'Csip.io API Overview',
-    items: [
-      'api-keys',
-    ]
-    
+      type: 'category',
+      label: 'Csip.io API Overview',
+      items: [
+        'api/basics',
+        'api/authentication',
+        'api/apiaccess',
+        'api/pagination',
+        'api/errorhandling',
+        'api/naming-your-entities',
+      ],
     },
     {
       type: 'category',
       label: 'Admin Services API',
       items: [
         'api/admin-overview',
-        'api/apiaccess',
-        'api/authentication',
-        'api/basics',
-      ],
+        'api/account',
+        'api/users',
+        'api/api-clients',
+        'api/app-profiles',
+        'api/apps',
+        'api/device-profiles',
+        'api/devices',
+        'api/properties',
+        'api/methods',
+        'api/alerts',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Data Services API',
+      items: [
+        'api/data-overview',
+        'api/writing-device-data',
+        'api/sending-device-commands',
+        //'api/reading-device-data',
+        'api/calling-device-method',
+        'api/calling-app-method',
+      ]
+        
     },
   ]
 };

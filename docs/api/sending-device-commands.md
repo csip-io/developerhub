@@ -23,8 +23,8 @@ When a public property is written with an API key other than the device key, the
 
 | Topic	| Description| 
 | :-------------: |:-------------:|
-| connio/data/in/devices/{id}/properties/#	 |  subscribe to listen commands coming from the platform in the format defined by the property type.|  
-| connio/data/in/devices/{id}/properties/{name} | 	subscribe to listen commands coming from the platform in the format defined by the property type |  
+| csipio/data/in/devices/{id}/properties/#	 |  subscribe to listen commands coming from the platform in the format defined by the property type.|  
+| csipio/data/in/devices/{id}/properties/{name} | 	subscribe to listen commands coming from the platform in the format defined by the property type |  
 
 > ### ❗️ Property Names in Topics
 > Property names must be always given in lowercase within the topic paths.

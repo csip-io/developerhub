@@ -31,4 +31,4 @@ You can provide an empty argument list as shown below for methods do not require
 
 > ### 🚧 Using HTTP GET
 > Alternatively, you can call a method using HTTP GET 
-> `GET https://api.connio.com/v3/data/devices/:ref/methods/:ref?args=`
+> `GET https://api.csip.io/v3/data/devices/:ref/methods/:ref?args=`

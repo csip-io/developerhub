@@ -10,7 +10,7 @@ Every user on the system gets an automatically generated API access key. API key
 API access keys uniquely identifies an entity (i.e. user, device, or api client) that is allowed to make REST requests within an account context. All requests to Csip.io API require the caller to authenticate using HTTP Basic Auth to convey his identity. You must provide the API key id as basic auth username, and Secret as password. For example if you are accessing the Csip.io API via cURL, the following command would authenticate you if you replace **apikey_id** with your user's API key id, and replace **apikey_secret** with your API key secret values.
 
 ```
-curl -u {apikey_id}:{apikey_secret} https://api.connio.com/v3/accounts/_this_
+curl -u {apikey_id}:{apikey_secret} https://api.csip.io/v3/accounts/_this_
 ```
 
 All RESTful API requests done with API key credentials must be made over HTTPS. Calls made over plain HTTP will fail. You must authenticate for all requests.

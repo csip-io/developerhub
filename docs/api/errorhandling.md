@@ -37,7 +37,7 @@ Connio APIs might return multiple errors for a single request. More information 
    "code": "ResourceNotFound", 
    "cause": "Resource not found",
    "message": "Requested endpoint is not valid. Make sure that there is no typo in the URL provided. See API documentation for details.",
-   "moreInfoUrl": "https://docs.connio.com/v3/error/resourcenotfound"
+   "moreInfoUrl": "https://docs.csip.io/v3/error/resourcenotfound"
   }
 ]
 ```
